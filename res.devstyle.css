@@ -1,0 +1,420 @@
+@media(max-width: 1550px) {
+
+    .d-none {
+        display: none;
+    }
+
+    .emblem {
+        font-size: 25px;
+    }
+
+    .headerbuttons {
+        padding-right: 200px;
+    }
+
+    .headerimg {
+        display: flex;
+        height: 35px;
+        width: 35px;
+        max-width: 45px;
+        transition: all 0.2s ease;
+    }
+
+    .headerimg:hover {
+        height: 45px;
+        max-width: 45px;
+        transform: scale(1.02);
+    }
+
+    .content {
+        width: 400px;
+    }
+
+    .aclass {
+        font-size: 30px;
+        padding-left: 115px;
+        padding-top: 50px;
+        max-height: 35px;
+        width: 355px;
+        max-width: 356px;
+    }
+
+    .aclass a:hover {
+        font-size: 35px;
+        transform: scale(1.0);
+    }
+
+    .users {
+        padding-left: 5px;
+    }
+
+    .friends {
+        height: 130px;
+        max-height: 140px;
+        width: 735px;
+    }
+
+    .imgfriends img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .imgfriends img:hover {
+        transform: scale(1.1);
+    }
+
+    .mainpost {
+        padding-top: 75px;
+    }
+
+    .firstpostcontain {
+        max-width: 757px;
+        margin-bottom: 200px;
+    }
+
+    .postimg img {
+        width: 757px;
+        height: 700px;
+    }
+
+    .buttons img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .buttons img:hover {
+        transform: scale(1.2);
+    }
+
+    .lesezeichenbutton img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .likes {
+        font-size: 17px;
+        padding-bottom: 8px;
+    }
+
+    .comments {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+
+    .inputfield {
+        height: 30px;
+        width: 75%;
+        font-size: 20px;
+    }
+
+    .createpostbutton {
+        font-size: 20px;
+        height: 36px;
+    }
+}
+
+@media(max-width: 1260px) {
+
+    .d-none2 {
+        display: none;
+    }
+
+    .header {
+        padding-left: 0px;
+    }
+
+    .emblem {
+        font-size: 20px;
+    }
+
+    .headerbuttons {
+        width: 380px;
+        max-width: 380px;
+        padding-right: 80px;
+    }
+
+    .headerimg {
+        display: flex;
+        height: 30px;
+        width: 30px;
+        max-width: 45px;
+    }
+
+    .headerimg:hover {
+        height: 40px;
+        max-width: 45px;
+    }
+
+    .secondcontainer {
+        justify-content: center;
+    }
+
+    .friends {
+        height: 120px;
+        max-height: 130px;
+        width: 700px;
+    }
+
+
+    .imgfriends img {
+        height: 55px;
+        width: 55px;
+    }
+
+    .imgfriends img:hover {
+        transform: scale(1.1);
+    }
+
+    .mainpost {
+        padding-top: 75px;
+    }
+
+    .firstpostcontain {
+        max-width: 721px;
+        margin-bottom: 200px;
+    }
+
+    .postimg img {
+        width: 721px;
+        height: 700px;
+    }
+
+    .buttons {
+        margin-left: -10px;
+    }
+
+    .buttons img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .buttons img:hover {
+        transform: scale(1.2);
+    }
+
+    .lesezeichenbutton img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .likes {
+        font-size: 15px;
+        padding-bottom: 6px;
+    }
+
+    .comments {
+        font-size: 17px;
+        padding-bottom: 22px;
+    }
+
+    .inputfield {
+        font-size: 17px;
+    }
+
+    .createpostbutton {
+        font-size: 17px;
+        height: 36px;
+    }
+}
+
+@media(max-width: 1000px) {
+
+
+    .d-none3 {
+        display: none;
+    }
+
+    .maincontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .header {
+        flex-direction: column;
+        margin-left: 0;
+        padding-bottom: 0;
+    }
+
+
+    .friends {
+        height: 100px;
+        max-height: 100px;
+        width: 530px;
+    }
+
+    .imgfriends img {
+        height: 38px;
+        width: 38px;
+    }
+
+    .imgfriends img:hover {
+        transform: scale(1.1);
+    }
+
+    .users {
+        max-width: 550px;
+    }
+
+    .postimg img {
+        width: 550px;
+        height: 600px;
+    }
+
+    .userimg {
+        height: 50px;
+    }
+
+    .userimg img {
+        height: 60px;
+        width: 60px;
+    }
+
+}
+
+@media(max-width: 650px) {
+
+    .emblem {
+        font-size: 17px;
+    }
+
+    .maincontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 570px;
+    }
+
+    .header {
+
+        flex-direction: column;
+        margin-left: 0;
+        padding-bottom: 0;
+    }
+
+    .secondcontainer {
+        max-width: 320px;
+        justify-content: center;
+
+    }
+
+    .friends {
+        height: 80px;
+        max-height: 100px;
+        width: 300px;
+        max-width: 320px;
+    }
+
+    .imgfriends {
+        padding-right: 10px;
+        font-size: 10px;
+    }
+
+    .imgfriends img {
+        height: 22px;
+        width: 22px;
+    }
+
+    .imgfriends img:hover {
+        transform: scale(1.1);
+    }
+
+    .mainpost {
+        padding-top: 30px;
+    }
+
+    .users {
+        width: 320px;
+        max-width: 320px;
+    }
+
+    .postimg img {
+        width: 320px;
+        height: 320px;
+    }
+
+    .usersettings {
+        padding-left: 15px;
+    }
+
+    .userimg {
+        height: 45px;
+        width: 320px;
+        max-width: 320px;
+        margin: 5px;
+    }
+
+    .username {
+        font-size: 17px;
+    }
+
+    .userlocation {
+        font-size: 10px;
+    }
+
+    .userimg img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .firstpostcontain {
+        width: 320px;
+        max-width: 320px;
+        margin-bottom: 100px;
+    }
+
+    .buttons {
+        width: 135px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .buttons img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .buttons img:hover {
+        transform: scale(1.2);
+    }
+
+    .lesezeichenbutton img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .likes {
+        font-size: 13px;
+        padding-bottom: 0;
+    }
+
+    .comments {
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+
+    .deletepost {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 14px;
+        width: 16px;
+        font-size: 9px;
+    }
+
+    .newpost {
+        height: 25px;
+    }
+
+    .inputfield {
+        font-size: 12px;
+        height: 20px;
+    }
+
+    .createpostbutton {
+        font-size: 12px;
+        height: 25px;
+    }
+}

@@ -1,0 +1,294 @@
+body {
+    margin: 0;
+}
+
+.maincontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1800px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 80px;
+}
+
+.emblem {
+    font-size: 30px;
+    font-family: 'Indie Flower';
+}
+
+.meinInput {
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.meinInput::placeholder {
+    text-align: center;
+}
+
+.headerbuttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 320px;
+    max-width: 320px;
+    padding-right: 145px;
+}
+
+
+.headerimg {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.headerimg img{
+    object-fit: cover;
+    height: 40px;
+    width: 40px;
+    transition: all 0.2s ease;
+}
+
+.headerimg img:hover {
+    transform: scale(1.05);
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.secondcontainer {
+    display: flex;
+    width: 1163px;
+}
+
+.content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 470px;
+}
+
+.aclass {
+    font-size: 40px;
+    font-family: 'Indie Flower';
+    padding-left: 145px;
+    padding-top: 50px;
+    max-height: 45px;
+    width: 455px;
+    max-width: 456px;
+}
+
+.aclass a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease;
+}
+
+.aclass a:hover {
+    font-size: 45px;
+    transform: scale(1.05);
+}
+
+.users {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.friends {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 190px;
+    max-height: 200px;
+    width: 850px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(152, 48, 48, 0.2);
+    padding-left: 20px;
+}
+
+.imgfriends {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.imgfriends img {
+    object-fit: cover;
+    height: 70px;
+    width: 70px;
+    border: 2px solid hsl(330, 82%, 44%);
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.imgfriends img:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+
+.firstpostcontain {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-width: 870px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(152, 48, 48, 0.2);
+    margin-bottom: 200px;
+}
+
+.mainpost {
+    padding-top: 100px;
+}
+
+.userimg {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    margin: 20px;
+    padding-left: 10px;
+}
+
+.userimg img {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.usersettings {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.username {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+}
+
+.userlocation {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.postimg img {
+    display: flex;
+    object-fit: cover;
+    width: 870px;
+    height: 800px;
+}
+
+.postbuttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    width: 175px;
+}
+
+.buttons img {
+    object-fit: contain;
+    height: 36px;
+    width: 36px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.buttons img:hover {
+    transform: scale(1.2);
+}
+
+
+.lesezeichenbutton {
+    display: flex;
+    padding-right: 12px;
+}
+
+.lesezeichenbutton img {
+    object-fit: contain;
+    height: 36px;
+    width: 36px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.lesezeichenbutton img:hover {
+    transform: scale(1.2);
+}
+
+.likes {
+    font-size: 20px;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+.comments {
+    display: flex;
+    font-size: 25px;
+    padding-left: 12px;
+    padding-bottom: 35px;
+    flex-direction: column;
+}
+
+.newpost {
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+}
+
+.inputfield {
+    height: 35px;
+    text-align: center;
+    width: 75%;
+    font-size: 25px;
+}
+
+.createpostbutton {
+    width: 25%;
+    font-size: 25px;
+    cursor: pointer;
+    height: 40px;
+}
+
+
+.mypost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 13px;
+    padding-right: 13px;
+}
+
+
+.deletepost {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.deletepost:hover {
+    transform: scale(1.2);
+}
